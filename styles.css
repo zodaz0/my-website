@@ -1,0 +1,81 @@
+/* site color and typography */
+
+
+body {
+    background-color:honeydew;
+    color: black;
+    font-family: "Comfortaa", sans-serif; 
+    font-size: fit-content;
+    margin: 0.25;
+    padding: 20px;
+}
+
+
+h1 {
+    color:cyan;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: fit-content;
+}
+
+h2 {
+    color:deepskyblue;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: fit-content;
+}
+
+
+a {
+    color: black;
+    text-shadow: 2px 2px 4px red;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+/* layout and styling */
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    /* fix width is on purpose */
+}
+
+header {
+    border: 5px solid #0000ff;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #cccccc;
+}
+
+/* blink */
+.blink {
+    animation: blink-animation is infinite;
+
+}
+
+@keyframes blink {
+    0%, 50% {opacity: 1;}
+    51%, 100% {opacity: 0;}
+}
+
+/* dot patterns*/
+
+hr {
+    border: 1px dashed #0000ff;
+    background-color: transparent;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+marquee {
+    background-color: green;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
